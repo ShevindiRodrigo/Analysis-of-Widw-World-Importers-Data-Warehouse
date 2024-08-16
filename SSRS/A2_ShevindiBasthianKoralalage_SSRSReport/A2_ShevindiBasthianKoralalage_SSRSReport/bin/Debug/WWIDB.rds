@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RptDataSource xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="WWIDB">
+  <ConnectionProperties>
+    <Extension>SQL</Extension>
+    <ConnectString>Data Source=DESKTOP-LR4BCN3\SQLEXPRESS;Initial Catalog=WideWorldImportersDW;Context Connection=False</ConnectString>
+    <IntegratedSecurity>true</IntegratedSecurity>
+  </ConnectionProperties>
+  <DataSourceID>1cdd5be6-15e2-4173-a1d5-0b7165958cea</DataSourceID>
+</RptDataSource>

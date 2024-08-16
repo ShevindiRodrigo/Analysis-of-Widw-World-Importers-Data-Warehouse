@@ -1,0 +1,131 @@
+﻿<DeploymentSnapshot xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0">
+  <Target>
+    <Database>WWIDatamart</Database>
+    <Server>DESKTOP-LR4BCN3\SQLEXPRESS</Server>
+    <ConnectionString>Data Source=DESKTOP-LR4BCN3\SQLEXPRESS;Timeout=0</ConnectionString>
+  </Target>
+  <Options>
+    <TransactionalDeployment>false</TransactionalDeployment>
+    <PartitionDeployment>DeployPartitions</PartitionDeployment>
+    <RoleDeployment>DeployRolesRetainMembers</RoleDeployment>
+    <ProcessingOption>DoNotProcess</ProcessingOption>
+    <OutputScript></OutputScript>
+    <ImpactAnalysisFile></ImpactAnalysisFile>
+    <ConfigurationSettingsDeployment>Deploy</ConfigurationSettingsDeployment>
+    <OptimizationSettingsDeployment>Deploy</OptimizationSettingsDeployment>
+    <WriteBackTableCreation>UseExisting</WriteBackTableCreation>
+  </Options>
+  <Snapshot>
+    <ObjectSnapshots>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.RelationalDataSource</Type>
+        <TimeStamp>i8RgNvQcVJUCKVSycTKK29ptEQU=7/26/2024 2:22:53 PM7/23/2024 9:34:22 PM</TimeStamp>
+        <ID>
+          <String>Wide World Importers DW</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.DataSourceView</Type>
+        <TimeStamp>TApmvlNT/KcMTnhUfFe5mPPn0XE=7/23/2024 11:15:05 PM7/23/2024 11:09:37 PM</TimeStamp>
+        <ID>
+          <String>SalesWWiDatamart</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.DataSourceView</Type>
+        <TimeStamp>q7sj1SrXpHEtkQog76Fr0W7Pjhc=7/23/2024 11:18:11 PM7/23/2024 11:15:03 PM</TimeStamp>
+        <ID>
+          <String>PurchaseWWIDatamart</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.DataSourceView</Type>
+        <TimeStamp>LqZIOFuFDxC5pA7eOy46wac7TPo=7/23/2024 11:33:53 PM7/23/2024 11:18:09 PM</TimeStamp>
+        <ID>
+          <String>LogisticWWIDatamart</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>jJ9J2de6nEDhFUsWHTv62eP70UA=7/24/2024 12:03:21 AM7/24/2024 12:03:21 AM</TimeStamp>
+        <ID>
+          <String>City</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>EFBaHv3wSIVlfL/Tx777ZgJhDPw=7/24/2024 12:03:44 AM7/24/2024 12:03:44 AM</TimeStamp>
+        <ID>
+          <String>Customer</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>6X1inaZaKc+r1HRJAWDv8dNVB8c=7/24/2024 12:07:39 AM7/24/2024 12:05:30 AM</TimeStamp>
+        <ID>
+          <String>Date</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>+ybqNm1gcQJUWf0l8fqb3Ku154k=7/24/2024 12:13:27 AM7/24/2024 12:13:27 AM</TimeStamp>
+        <ID>
+          <String>Employee</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>6g5opm0dX9jLrr5AotJ/qTHog2I=7/24/2024 12:25:54 AM7/24/2024 12:25:53 AM</TimeStamp>
+        <ID>
+          <String>Stock Item</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>jb6xP69QfyH1n+8xSah0rTxNRh0=7/24/2024 10:06:17 AM7/24/2024 10:06:16 AM</TimeStamp>
+        <ID>
+          <String>Supplier</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>Voqo4Lr7wg/4u0mPmVkvDNrxq0o=7/26/2024 2:49:57 PM7/26/2024 2:49:57 PM</TimeStamp>
+        <ID>
+          <String>Stock Item 1</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>Wtq6E1gVXTdeheXk+29g1pWfkDI=7/26/2024 2:49:57 PM7/26/2024 2:49:57 PM</TimeStamp>
+        <ID>
+          <String>Date 1</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Cube</Type>
+        <TimeStamp>SKtfuSReL/YLRIbfsdLOOEw0mEg=7/26/2024 2:26:06 PM7/26/2024 2:24:50 PMlS2CB0KFEEkBhZ67ilNjUUp7qwM=7/26/2024 2:24:50 PM7/26/2024 2:24:50 PM</TimeStamp>
+        <ID>
+          <String>SalesWWiDatamart</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Cube</Type>
+        <TimeStamp>c8Y6pxn47gz9GnHWlAF+KA9K+l0=7/26/2024 2:49:57 PM7/26/2024 2:49:57 PMAeZkI/C4e9nkWoeXc//DsLqnzRI=7/26/2024 2:49:57 PM7/26/2024 2:49:57 PM</TimeStamp>
+        <ID>
+          <String>PurchaseWWIDatamart</String>
+        </ID>
+      </ObjectSnapshot>
+    </ObjectSnapshots>
+    <DatabaseSnapshot>
+      <Type>Microsoft.AnalysisServices.Database</Type>
+      <TimeStamp>Qp2JTLAOhLL/cbT8uatycXmF+mE=7/23/2024 9:26:43 PM7/23/2024 9:26:41 PM</TimeStamp>
+      <ID>
+        <String>WWIDatamart</String>
+      </ID>
+    </DatabaseSnapshot>
+    <Granularity>Coarse</Granularity>
+  </Snapshot>
+  <AssemblyLocations />
+  <ProcessingComplete>true</ProcessingComplete>
+  <LastDeployed>2024-07-26T04:52:26.6Z</LastDeployed>
+</DeploymentSnapshot>
